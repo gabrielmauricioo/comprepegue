@@ -11,7 +11,7 @@ export function Funciona() {
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
-    <section className="mt-16 bg-grey-light flex flex-col px-4 sm:px-0">
+    <section className="mt-16 bg-grey-light flex flex-col px-4 sm:px-0" id="funciona">
       <GridContainer>
         {/* Titulo */}
         <div className="flex flex-col items-center justify-center mt-16 sm:mt-32">

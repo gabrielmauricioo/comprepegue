@@ -5,7 +5,7 @@ import { Badge } from "../ui/badge";
 
 export function Sobre(){
   return(
-    <section className="flex mt-32 mb-20">
+    <section className="flex mt-32 mb-20" id="sobre">
       <GridContainer>
         <div className="flex flex-col">
           {/* Foto e Sobre*/}

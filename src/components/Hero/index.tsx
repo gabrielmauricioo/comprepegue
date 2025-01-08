@@ -10,7 +10,7 @@ export function Hero() {
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
-    <section className="xl:mt-40 mt-20">
+    <section className="xl:mt-40 mt-20" id="home">
       <GridContainer>
         <div className="flex flex-col xl:flex-row items-center justify-center xl:justify-between">
           <div className="w-full xl:max-w-[708px] xl:mx-0 mx-auto flex flex-col items-center xl:items-start text-center xl:text-left">

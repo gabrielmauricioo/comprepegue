@@ -4,7 +4,7 @@ import { ItemTestimonials } from "./ItemTestimonials";
 
 export function Testimonials() {
   return (
-    <section>
+    <section id="depoimentos">
       <GridContainer>
         {/* Título */}
         <div className="flex flex-col items-center justify-center mt-40">

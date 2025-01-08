@@ -5,7 +5,7 @@ import { ItemQuestions } from "./ItemQuestions";
 
 export function Questions(){
   return(
-    <section className="mt-40">
+    <section className="mt-40" id="duvidas">
       <GridContainer>
         <div className="flex flex-col items-center justify-center mb-20">
           <Title

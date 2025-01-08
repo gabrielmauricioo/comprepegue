@@ -65,11 +65,14 @@ body {
 @layer base {
   * {
     @apply border-border;
+    -webkit-font-smoothing: antialiased;
   }
   body {
     @apply bg-background text-foreground;
     overflow-x: hidden;
     background-color: #fcfcfc;
   }
+  html {
+    overflow-x: hidden;
+  }
 }
-
