@@ -4,8 +4,8 @@ import Script from 'next/script';
 // Declaração global para evitar erros de TypeScript
 declare global {
   interface Window {
-    dataLayer: any[];
-    gtag?: (...args: any[]) => void;
+    dataLayer: Array<unknown>; // Substituindo 'any[]' por 'Array<unknown>'
+    gtag?: (...args: unknown[]) => void; // Substituindo 'any[]' por 'unknown[]'
   }
 }
 
@@ -17,7 +17,7 @@ export const GoogleAnalytics = ({ gaId }: { gaId: string }) => {
     }
 
     if (!window.gtag) {
-      window.gtag = (...args: any[]) => {
+      window.gtag = (...args: unknown[]) => {
         window.dataLayer.push(args);
       };
     }
