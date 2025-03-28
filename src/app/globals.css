@@ -70,7 +70,7 @@ body {
   body {
     @apply bg-background text-foreground;
     overflow-x: hidden;
-    background-color: #fcfcfc;
+    /* background-color: #fcfcfc; */
   }
   html {
     overflow-x: hidden;
