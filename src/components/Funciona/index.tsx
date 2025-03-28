@@ -28,7 +28,7 @@ export function Funciona() {
         <div>
           <h3 className="font-semibold text-sm md:text-base">2️⃣ Entre em contato pelo WhatsApp</h3>
           <p className="text-gray-600 text-xs md:text-sm">
-            Ao clicar em "Comprar", você será automaticamente direcionado para o WhatsApp de um dos nossos atendentes.
+            Ao clicar em Comprar, você será automaticamente direcionado para o WhatsApp de um dos nossos atendentes.
           </p>
         </div>
 

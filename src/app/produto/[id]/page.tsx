@@ -5,7 +5,11 @@ import { Funciona } from "@/components/Funciona";
 import { Footer } from "@/components/Footer";
 import { Header2 } from "@/components/Header2";
 
-export default function Produto({ params }: { params: { id: string } }) {
+interface Params {
+  id: string;
+}
+
+export default function Produto({ params }: { params: Params }) {
   const productId = parseInt(params.id, 10);
   const product = products.find((p) => p.id === productId);
 
@@ -13,7 +17,7 @@ export default function Produto({ params }: { params: { id: string } }) {
     return notFound(); // Retorna automaticamente para a página 404
   }
 
-  // Número do WhatsApp (adicione seu número no formato internacional)
+  // Número do WhatsApp
   const phoneNumber = "+5521983357561"; // Troque pelo seu número
   
   // Mensagem personalizada para o WhatsApp
@@ -82,7 +86,6 @@ export default function Produto({ params }: { params: { id: string } }) {
     </>
   );
 }
-
 
 // Gerando caminhos estáticos
 export async function generateStaticParams() {

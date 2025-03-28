@@ -1,7 +1,3 @@
-'use client';
-import { useState } from "react";
-import Link from "next/link";
-import { GridContainer } from "../GridContainer";
 import Image from "next/image";
 
 export function Header2() {
