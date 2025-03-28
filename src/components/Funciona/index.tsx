@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 export function Funciona() {
   const whatsappNumber = "5521983357561"; // Substitua pelo seu número de WhatsApp
-  const message = encodeURIComponent("Olá! Tenho algumas dúvidas sobre como comprar na *Compre e Pegue*.");
+  const message = encodeURIComponent("Olá! Tenho algumas dúvidas sobre como comprar na Compre e Pegue.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   return (
