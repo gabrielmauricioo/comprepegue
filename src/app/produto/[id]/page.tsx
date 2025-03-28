@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { products } from "@/data/products";
 import { notFound } from "next/navigation";
-import { Header } from "@/components/Header";
 import { Funciona } from "@/components/Funciona";
 import { Footer } from "@/components/Footer";
 import { Header2 } from "@/components/Header2";

@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
 // Configuração da fonte Montserrat
-const montserrat = Montserrat({ subsets: ["latin"] });
+
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 // Metadados do site
