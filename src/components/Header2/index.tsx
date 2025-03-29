@@ -26,7 +26,7 @@ export function Header2() {
 
       {/* Botão para ver os produtos */}
       <a
-        href="http://192.168.1.14:3000/"
+        href="http://192.168.1.6:3000"
         className="mt-4 bg-green-500 text-white px-6 py-2 rounded-lg text-sm font-medium shadow-md hover:bg-green-600 transition"
       >
         Voltar
