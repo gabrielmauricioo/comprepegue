@@ -9,9 +9,26 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 // Metadados do site
 export const metadata: Metadata = {
-  title: "Psicólogo Bruno Machado",
+  title: "Compre e Pegue | Loja de Móveis Usados em Foz do Iguaçu",
   description:
-    "Bruno Machado, psicólogo, oferece acolhimento e estratégias eficazes para ajudar você a superar desafios e alcançar equilíbrio emocional com confiança!",
+    "A Compre e Pegue oferece uma vasta seleção de móveis usados em excelente estado e prdutos seminovos com preços acessíveis e qualidade garantida. Encontre móveis para todos os ambientes da sua casa em Foz do Iguaçu e transforme seu espaço com estilo e economia.",
+  keywords: "móveis usados, loja de móveis, Foz do Iguaçu, móveis baratos, móveis de qualidade, móveis para casa, móveis de segunda mão",
+  openGraph: {
+    title: "Compre e Pegue | Loja de Móveis Usados em Foz do Iguaçu",
+    description:
+      "Encontre móveis usados de qualidade para sua casa com preços acessíveis na Compre e Pegue, em Foz do Iguaçu.",
+    url: "https://www.comprepeguefoz.com.br", // substitua com o seu link real
+    type: "website",
+    images: [
+      {
+        url: "/comprepeguelogo.png", // substitua com o link da sua imagem
+        width: 831,
+        height: 831,
+        alt: "Compre e Pegue - Loja de Móveis Usados",
+      },
+    ],
+  },
+  
 };
 
 // IDs do Google Analytics e Facebook Pixel
