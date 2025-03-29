@@ -23,7 +23,7 @@ export default async function Produto({ params }: ProdutoPageProps) {
   }
 
   // Número do WhatsApp
-  const phoneNumber = "+5521983357561"; 
+  const phoneNumber = "+5545999541641"; 
   const message = encodeURIComponent(
     `Olá! Gostaria de saber mais sobre o produto *${product.name}*, poderia me enviar mais fotos e informações?`
   );
