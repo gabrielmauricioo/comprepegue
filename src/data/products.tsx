@@ -44,7 +44,7 @@ export const products: Product[] = [
     name: "🔵 Galão de 60 Litros 🔵",
     brand: "Resistente e Versátil!",
     price: "R$ 60,00",
-    image: "/galão.png",
+    image: "/galao.png",
      description:"O galão plástico de 60 litros é ideal para armazenar líquidos, ração, grãos e diversos materiais com segurança e praticidade. Perfeito para indústrias, comércios, fazendas e até uso doméstico!",
      features: [
       "Alta capacidade – Armazene até 60 litros.",
