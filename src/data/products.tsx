@@ -54,6 +54,20 @@ export const products: Product[] = [
     ],
   },
   {
+    id: 11,
+    name: "📺 TV Philips 32 polegadas",
+    brand: "32 polegadas",
+    price: "R$ 250,00",
+    image: "/tv.png",
+     description:"Leve entretenimento e tecnologia para sua casa com a TV Philips de 32 polegadas. Ideal para salas e ambientes compactos, oferece uma experiência de imagem incrível!",
+     features: [
+      "Tela HD",
+      "Design Elegante – Combina com qualquer ambiente.",
+      "Entradas HDMI e USB – Conecte dispositivos com facilidade.",
+      "Economia de Energia – Eficiência energética garantida.",
+    ],
+  },
+  {
     id: 3,
     name: "Secador Cabelo",
     brand: "Marca Mondial",
