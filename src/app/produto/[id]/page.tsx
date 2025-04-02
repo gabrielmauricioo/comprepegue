@@ -73,7 +73,7 @@ export default async function Produto({ params }: ProdutoPageProps) {
               rel="noopener noreferrer"
               className="mt-4 w-full block bg-green-500 text-white font-semibold py-2 text-center rounded-lg hover:bg-green-600 transition"
             >
-              Fale com nossos consultures
+              Fale com nossos consultores
             </a>
           </div>
         </div>
