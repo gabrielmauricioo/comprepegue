@@ -18,10 +18,10 @@ export function Header() {
 
       {/* Texto de boas-vindas */}
       <h1 className="text-lg font-semibold text-gray-800">
-        Seja bem-vindo(a)!
+        Seja bem-vindo(a)!✨
       </h1>
       <p className="text-sm text-gray-600">
-        Loja de móveis usados e produtos seminovos localizada em <strong>Foz do Iguaçu</strong>
+         Descubra móveis usados e seminovos com preços incríveis em <strong>Foz do Iguaçu</strong>. Transforme sua casa com estilo e economia!
       </p>
 
       {/* Botão para ver os produtos */}

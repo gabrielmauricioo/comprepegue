@@ -18,10 +18,10 @@ export function Header2() {
 
       {/* Texto de boas-vindas */}
       <h1 className="text-lg font-semibold text-gray-800">
-        Seja bem-vindo(a)!
+        Veja o produto
       </h1>
       <p className="text-sm text-gray-600">
-        Loja de móveis usados e produtos seminovos localizada em <strong>Foz do Iguaçu</strong>
+        Loja especializado em  móveis usados e produtos seminovos localizada em <strong>Foz do Iguaçu</strong>
       </p>
 
       {/* Botão para ver os produtos */}
