@@ -129,8 +129,8 @@ export const products: Product[] = [
     id: 13,
     name: "Mesa de Plástico Pequena",
     brand: "Perfeita para o seu espaço",
-    price: "R$ 60",
-    oldPrice: "R$ 40",
+    price: "R$ 40",
+    oldPrice: "R$ 50",
     image: "/mesap.png",
      description:"Esta mesa de plástico branca é a solução perfeita para quem busca praticidade e versatilidade. Leve, resistente e fácil de limpar, ela se adapta a diferentes espaços, seja em casa, no jardim ou em eventos.",
      features: [
