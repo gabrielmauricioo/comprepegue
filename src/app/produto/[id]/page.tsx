@@ -38,7 +38,7 @@ export default async function Produto({ params }: ProdutoPageProps) {
             src={product.image}
             alt={product.name}
             width={500}
-            height={500}
+            height={700}
             className="w-full h-auto object-cover"
           />
           <div className="p-5">

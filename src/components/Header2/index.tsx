@@ -18,7 +18,7 @@ export function Header2() {
 
       {/* Texto de boas-vindas */}
       <h1 className="text-lg font-semibold text-gray-800">
-        Descrição do Produto
+        Compre e Pegue
       </h1>
       <p className="text-sm text-gray-600">
         Loja especializado em  móveis usados e produtos seminovos localizada em <strong>Foz do Iguaçu</strong>

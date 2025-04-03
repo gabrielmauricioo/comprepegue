@@ -11,6 +11,21 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 15,
+    name: "TV LED 32 Polegadas - Samsung!",
+    brand: "Qualidade de Imagem Incrível",
+    price: "R$ 450",
+    oldPrice: "R$ 650",
+    image: "/tv2.png",
+     description:"TV LED de 32 polegadas em excelente estado de conservação. Imagem nítida e cores vibrantes para você aproveitar seus filmes, séries e programas favoritos com a melhor qualidade. Ideal para salas de estar, quartos e áreas de lazer.",
+     features: [
+      "Funcionando perfeitamente",
+      "Controle remoto incluso.",
+      "Conexões HDMI e USB para conectar seus dispositivos.",
+      "Capacidade ampliada – Suporta grandes volumes de preparo.",
+    ],
+  },
+  {
     id: 1,
     name: "Mesa com 4 Cadeiras de Madeira",
     brand: "Transforme sua sala",
@@ -40,7 +55,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 12,
+    id: 3,
     name: "Abajur Clássico com Cúpula",
     brand: "Elegância e Luz para o Seu Ambiente!",
     price: "R$ 35,00",
@@ -54,7 +69,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 10,
+    id: 4,
     name: "Galão de 60 Litros",
     brand: "Resistente e Versátil!",
     price: "R$ 60,00",
@@ -68,7 +83,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 11,
+    id: 5,
     name: "📺 TV Philips 32 polegadas",
     brand: "32 polegadas",
     price: "R$ 250,00",
@@ -82,7 +97,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 3,
+    id: 6,
     name: "Secador Cabelo",
     brand: "Marca Mondial",
     price: "R$ 35,00",
@@ -97,7 +112,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     name: "Mesa Retangular Branca",
     brand: "Perfeita para o seu espaço",
     price: "R$ 400",
@@ -126,7 +141,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 13,
+    id: 8,
     name: "Mesa de Plástico Pequena",
     brand: "Perfeita para o seu espaço",
     price: "R$ 40",
@@ -141,7 +156,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 5,
+    id: 9,
     name: "Mesa + 4 Cadeiras de Plástico",
     brand: "Perfeitas para o seu ambiente",
     price: "R$ 270",
@@ -155,7 +170,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 6,
+    id: 10,
     name: "Mesa Bistrô Redonda",
     brand: "Elegante e versátil",
     price: "R$ 250",
@@ -170,8 +185,8 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 14,
-    name: "anela de Correr de Vidro ",
+    id: 11,
+    name: "Janela de Correr de Vidro ",
     brand: "Luminosidade e Privacidade para o Seu Ambiente",
     price: "R$ 400",
     oldPrice: "R$ 600",
@@ -185,12 +200,12 @@ export const products: Product[] = [
     ],
   },  
   {
-    id: 7,
+    id: 12,
     name: "Mesa Cinza com Tampo de Granito",
     brand: "Tampo de granito de alta qualidade",
     price: "R$ 200",
     oldPrice: "R$ 280",
-    image: "/mesacinza.png",
+    image: "/mesacinza2.png",
      description:"A Mesa Redonda Cinza é perfeita para quem busca sofisticação e praticidade. Seu tampo de granito confere resistência e elegância, enquanto a base metálica garante estabilidade. Ideal para salas de jantar, varandas e áreas gourmet.",
      features: [
       "Durável e resistente – Tampo de granito de alta qualidade",
@@ -200,7 +215,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 9,
+    id: 13,
     name: "Ar-Condicionado 12.000 BTUs",
     brand: "Segtron",
     price: "R$ 600",
@@ -215,7 +230,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 10,
+    id: 14,
     name: "Forno Industrial a Gás",
     brand: "Segtron",
     price: "R$ 999",
