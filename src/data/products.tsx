@@ -11,7 +11,7 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 15,
+    id: 16,
     name: "TV LED 32 Polegadas - Samsung!",
     brand: "Qualidade de Imagem Incrível",
     price: "R$ 450",
@@ -242,6 +242,49 @@ export const products: Product[] = [
       "Estrutura resistente – Material de qualidade para longa durabilidade.",
       "Controle de temperatura – Precisão para diferentes tipos de assados.",
       "Capacidade ampliada – Suporta grandes volumes de preparo.",
+    ],
+  },
+  {
+    id: 17,
+    name: "🛋️ Abajur Rústico de Madeira",
+    brand: "Estilo e Elegância! ",
+    price: "R$ 100",
+    oldPrice: "R$ 170",
+    image: "/abajur3.png",
+     description:"Transforme seu ambiente com este abajur rústico, perfeito para quem busca um toque vintage e sofisticado na decoração. Feito em madeira de alta qualidade e com design exclusivo!",
+     features: [
+      "Estilo industrial – Combina com qualquer ambiente.",
+      "Material resistente – Estrutura de madeira e metal envelhecido.",
+      "Iluminação aconchegante – Ideal para escritórios, salas e quartos.",
+      "Pronto para uso – Com fio e interruptor para facilitar o manuseio.",
+    ],
+  },
+  {
+    id: 18,
+    name: "Vaso Sanitário de Louça",
+    brand: "Estilo e Elegância! ",
+    price: "R$ 100",
+    image: "/vaso2.png",
+     description:"Renove seu banheiro com um vaso sanitário de louça de alta durabilidade e fácil instalação. Conforto e qualidade garantidos para seu dia a dia.",
+     features: [
+      "Material resistente e durável",
+      "Design ergonômico para maior conforto",
+      "Fácil de higienizar",
+      "Compatível com sistemas convencionais de descarga",
+    ],
+  },
+  {
+    id: 19,
+    name: "Pia de Louça com Coluna e Torneira",
+    brand: "Estilo e Elegância! ",
+    price: "R$ 140",
+    image: "/pia2.png",
+     description:"Perfeita para banheiros e lavabos, esta pia de louça com coluna traz elegância e funcionalidade para seu espaço. Seu design clássico se adapta a qualquer decoração.",
+     features: [
+      "Material resistente e durável",
+      "Design compacto e sofisticado",
+      "Acompanha torneira moderna",
+      "Instalação prática",
     ],
   },
 ];

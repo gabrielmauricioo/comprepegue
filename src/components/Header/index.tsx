@@ -18,7 +18,7 @@ export function Header() {
 
       {/* Texto de boas-vindas */}
       <h1 className="text-lg font-semibold text-gray-800">
-        Seja bem-vindo(a)!✨
+        Seja bem-vindo(a) ao nosso Catálogo!✨
       </h1>
       <p className="text-sm text-gray-600">
          Descubra móveis usados e seminovos com preços incríveis em <strong>Foz do Iguaçu</strong>. Transforme sua casa com estilo e economia!
