@@ -11,6 +11,21 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 21,
+    name: "Porta de Banheiro 70x210 cm",
+    brand: "porta resistente e funcional",
+    price: "R$ 75",
+    oldPrice: "R$ 90",
+    image: "/piag.png",
+     description:"Renove seu banheiro com esta porta resistente e funcional. Ideal para reformas ou substituições.",
+     features: [
+      "Medida: 70x210 cm",
+      "Material resistente e fácil de limpar",
+      "Acompanha maçaneta",
+      "Pronta para instalação",
+    ],
+  },
+  {
     id: 16,
     name: "TV LED 32 Polegadas - Samsung!",
     brand: "Qualidade de Imagem Incrível",
@@ -285,6 +300,35 @@ export const products: Product[] = [
       "Design compacto e sofisticado",
       "Acompanha torneira moderna",
       "Instalação prática",
+    ],
+  },
+  {
+    id: 20,
+    name: "Pia de Granito com Cuba e Torneira",
+    brand: "Granito resistente",
+    price: "R$ 300",
+    image: "/piag.png",
+     description:"Adicione mais estilo e praticidade à sua cozinha ou área de serviço com esta bancada de granito já equipada com cuba de inox e torneira moderna.",
+     features: [
+      "2 metros e 10 de comprimento",
+      "55 cm de Largura",
+      "Inclui: Cuba de inox embutida + torneira",
+      "Ideal para cozinhas, áreas gourmet ou lavanderias",
+    ],
+  },
+  {
+    id: 21,
+    name: "Porta de Banheiro 70x210 cm",
+    brand: "porta resistente e funcional",
+    price: "R$ 75",
+    oldPrice: "R$ 90",
+    image: "/piag.png",
+     description:"Renove seu banheiro com esta porta resistente e funcional. Ideal para reformas ou substituições.",
+     features: [
+      "Medida: 70x210 cm",
+      "Material resistente e fácil de limpar",
+      "Acompanha maçaneta",
+      "Pronta para instalação",
     ],
   },
 ];
