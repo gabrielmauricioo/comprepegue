@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Fogão 4 Bocas Mueller – R$ 120",
     brand: "Funcionando normalmente!",
     price: "R$ 120",
-    image: "/cortina.png",
+    image: "/fogao.png",
      description:"Ideal pra quem quer um fogão compacto e econômico. Está com marcas de uso, mas nada que atrapalhe o funcionamento.",
      features: [
       "4 bocas",
