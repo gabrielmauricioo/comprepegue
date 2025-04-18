@@ -11,6 +11,62 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 30,
+    name: "Criado-Mudo de Bambú",
+    brand: "Moderno",
+    price: "R$ 70",
+    image: "/criado.png",
+     description:"🪵 Uma peça rústica, charmosa e super funcional pro seu quarto, sala ou até banheiro! Ideal pra quem curte um estilo natural e diferente.",
+     features: [
+      "Feito de bambu",
+      "Com duas gavetas",
+      "Estrutura firme e resistente",
+      "Em bom estado de conservação",
+    ],
+  },
+  {
+    id: 29,
+    name: "Quadro Decorativo",
+    brand: "Moderno",
+    price: "R$ 65",
+    image: "/quadro.png",
+     description:"🖼️ Dê um toque de estilo e sofisticação ao seu ambiente com este quadro decorativo de design moderno e minimalista. Ideal para sala, quarto ou escritório.",
+     features: [
+      "Já vem com moldura em madeira",
+      "Arte geométrica com tons neutros",
+      "Tamanho médio (foto com proporção real)",
+      "Em perfeito estado, pronto para pendurar",
+    ],
+  },
+  {
+    id: 28,
+    name: "Frigobar Consul",
+    brand: "Funcionando normalmente!",
+    price: "R$ 450",
+    image: "/frigobar.png",
+     description:"Ideal para quem quer praticidade e economia de espaço! Perfeito para quarto, escritório, salão ou área de lazer.🧊",
+     features: [
+      "Funcionando perfeitamente",
+      "Gela muito bem",
+      "Compacto e eficiente",
+      "Marca Consul",
+    ],
+  },
+  {
+    id: 31,
+    name: "Colchão de Casal",
+    brand: "Ótimo estado",
+    price: "R$ 450",
+    image: "/casal.png",
+     description:"Conforto garantido pra suas noites de sono! Colchão de casal em ótimo estado, ideal pra quem busca qualidade com bom preço.",
+     features: [
+      "Tamanho casal",
+      "Higenizado",
+      "Super confortável",
+      "Pronto pra uso",
+    ],
+  },
+  {
     id: 27,
     name: "Fogão 4 Bocas Mueller – R$ 120",
     brand: "Funcionando normalmente!",
@@ -110,36 +166,6 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 23,
-    name: "Porta de Madeira – 2,10m x 80cm",
-    brand: "Ótimo estado",
-    price: "R$ 100",
-    oldPrice: "R$ 130",
-    image: "/porta80.png",
-     description:"Está em ótimo estado, ideal para quem está reformando ou construindo.",
-     features: [
-      "2,10m de altura.",
-      "80cm de largura.",
-      "Pronta pra instalar",
-      "Capacidade ampliada – Suporta grandes volumes de preparo.",
-    ],
-  },
-  {
-    id: 16,
-    name: "TV LED 32 Polegadas - Samsung!",
-    brand: "Qualidade de Imagem Incrível",
-    price: "R$ 450",
-    oldPrice: "R$ 650",
-    image: "/tv2.png",
-     description:"TV LED de 32 polegadas em excelente estado de conservação. Imagem nítida e cores vibrantes para você aproveitar seus filmes, séries e programas favoritos com a melhor qualidade. Ideal para salas de estar, quartos e áreas de lazer.",
-     features: [
-      "Funcionando perfeitamente",
-      "Controle remoto incluso.",
-      "Conexões HDMI e USB para conectar seus dispositivos.",
-      "Capacidade ampliada – Suporta grandes volumes de preparo.",
-    ],
-  },
-  {
     id: 1,
     name: "Mesa com 4 Cadeiras de Madeira",
     brand: "Transforme sua sala",
@@ -152,20 +178,6 @@ export const products: Product[] = [
       "Acompanha 4 cadeiras de madeira",
       "Ótima para cozinha, sala de jantar ou área gourmet",
       "Qualidade para sua casa",
-    ],
-  },
-  {
-    id: 2,
-    name: "Vaso Sanitário Branco",
-    brand: "Durabilidade e conforto",
-    price: "R$ 120,00",
-    image: "/vaso.png",
-     description:"O Vaso Sanitário Branco é a escolha perfeita para quem busca durabilidade e conforto para o banheiro. Feito em cerâmica resistente, seu design moderno se adapta a diversos ambientes, proporcionando um visual elegante e funcionalidade eficiente.",
-     features: [
-      "Resistente e durável – Material de alta qualidade para longa vida útil.",
-      "Design moderno – Estilo clean que combina com qualquer banheiro.",
-      "Confortável e prático – Assento ergonômico para maior comodidade.",
-      "Fácil instalação – Perfeito para reformas e novos projetos.",
     ],
   },
   {
@@ -214,8 +226,7 @@ export const products: Product[] = [
     id: 6,
     name: "Secador Cabelo",
     brand: "Marca Mondial",
-    price: "R$ 35,00",
-    oldPrice: "R$ 40,00",
+    price: "R$ 50,00",
     image: "/secador.png",
      description:"gabriel",
      features: [
@@ -273,7 +284,7 @@ export const products: Product[] = [
     id: 9,
     name: "Mesa + 4 Cadeiras de Plástico",
     brand: "Perfeitas para o seu ambiente",
-    price: "R$ 270",
+    price: "R$ 250",
     image: "/mesaplastico.png",
      description:"gabriel",
      features: [
@@ -287,8 +298,8 @@ export const products: Product[] = [
     id: 10,
     name: "Mesa Bistrô Redonda",
     brand: "Elegante e versátil",
-    price: "R$ 250",
-    oldPrice: "R$ 180",
+    price: "R$ 180",
+    oldPrice: "R$ 200",
     image: "/mesapreta.png",
      description:"A Mesa Bistrô Redonda com base preta e tampo de granito é a escolha perfeita para quem busca sofisticação e durabilidade na decoração. Seu design moderno e compacto a torna ideal para diversos ambientes, como cozinhas, varandas e áreas gourmet.",
      features: [
@@ -296,21 +307,6 @@ export const products: Product[] = [
       "Base resistente – Estrutura metálica robusta e durável.",
       "Fácil de limpar – Superfície de granito que facilita a manutenção.",
       "Ideal para pequenos espaços – Compacta e funcional.",
-    ],
-  },
-  {
-    id: 11,
-    name: "Janela de Correr de Vidro ",
-    brand: "Luminosidade e Privacidade para o Seu Ambiente",
-    price: "R$ 400",
-    oldPrice: "R$ 600",
-    image: "/janela.png",
-     description:"Esta janela de correr combina funcionalidade e estilo, ideal para quem busca luminosidade e privacidade. O design moderno e o acabamento em alumínio garantem durabilidade e sofisticação para o seu espaço.",
-     features: [
-      "Sistema de correr suave e eficiente.",
-      "Design moderno e elegante.",
-      "Estrutura resistente.",
-      "Vidro fosco para maior privacidade.",
     ],
   },  
   {
@@ -373,3 +369,9 @@ export const products: Product[] = [
     ],
   },
 ];
+
+
+
+// git add .
+// git commit -m "Atualizando arquivos modificados"
+// git push origin main
