@@ -11,6 +11,20 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 32,
+    name: " Kit com 13 PLACAS 3D 77CM X 70CM",
+    brand: "Fácil de Aplicar",
+    price: "R$ 110,50",
+    image: "/placa.png",
+     description:"Transforme qualquer ambiente com essas placas autoadesivas 3D em estilo tijolinho branco! Fáceis de aplicar e com resultado incrível. Ideal pra dar aquele up na sua parede sem bagunça!",
+     features: [
+      "Tamanho de cada placa: 77cm x 70cm",
+      "Kit com 13 unidades",
+      "Autoadesiva – sem sujeira, sem complicação",
+      "Ideal para sala, quarto, escritório ou loja",
+    ],
+  },
+  {
     id: 30,
     name: "Criado-Mudo de Bambú",
     brand: "Moderno",
