@@ -12,7 +12,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 32,
-    name: " Kit com 13 PLACAS 3D 77CM X 70CM",
+    name: " Kit com 13 Placas 3D - 77CM X 70CM",
     brand: "Fácil de Aplicar",
     price: "R$ 110,50",
     image: "/placa1.png",
