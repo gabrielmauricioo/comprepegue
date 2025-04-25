@@ -53,20 +53,6 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 35,
-    name: "QUADRO DECORATIVO MODERNO",
-    brand: "design moderno",
-    price: "R$ 59,90",
-    image: "/quadro3.png",
-     description:"Dê um toque de estilo e sofisticação ao seu ambiente com este quadro decorativo de design moderno e minimalista. Ideal para sala, quarto ou escritório.",
-     features: [
-      "Moldura em madeira",
-      "Tamanho médio (foto com proporção real",
-      "Em perfeito estado",
-      "Pronto para pendurar",
-    ],
-  },
-  {
     id: 34,
     name: "QUADRO DECORATIVO MODERNO",
     brand: "design moderno",
