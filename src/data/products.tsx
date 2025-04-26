@@ -422,51 +422,7 @@ export const products: Product[] = [
       "Fácil de limpar – Superfície lisa que facilita a manutenção",
       "Compacta e versátil – Ideal para pequenos espaços.",
     ],
-  },
-  {
-    id: 13,
-    name: "Ar-Condicionado 12.000 BTUs",
-    brand: "Segtron",
-    price: "R$ 600",
-    oldPrice: "R$ 850",
-    image: "/arcondiconado.png",
-     description:"O ar-condicionado de 12.000 BTUs garante conforto térmico para ambientes de médio porte, proporcionando refrigeração eficiente e economia de energia. Ideal para quem busca um ambiente mais agradável em dias quentes.",
-     features: [
-      "Ótima oportunidade para quem busca conforto térmico com economia",
-      "Potência de 12.000 BTUs – Resfria ambientes rapidamente.",
-      "Acompanha a Evaporadora e condesadora",
-      "Design compacto – Fácil instalação.",
-    ],
-  },
-  {
-    id: 17,
-    name: "🛋️ Abajur Rústico de Madeira",
-    brand: "Estilo e Elegância! ",
-    price: "R$ 100",
-    oldPrice: "R$ 170",
-    image: "/abajur3.png",
-     description:"Transforme seu ambiente com este abajur rústico, perfeito para quem busca um toque vintage e sofisticado na decoração. Feito em madeira de alta qualidade e com design exclusivo!",
-     features: [
-      "Estilo industrial – Combina com qualquer ambiente.",
-      "Material resistente – Estrutura de madeira e metal envelhecido.",
-      "Iluminação aconchegante – Ideal para escritórios, salas e quartos.",
-      "Pronto para uso – Com fio e interruptor para facilitar o manuseio.",
-    ],
-  },
-  {
-    id: 18,
-    name: "Vaso Sanitário de Louça",
-    brand: "Estilo e Elegância! ",
-    price: "R$ 100",
-    image: "/vaso2.png",
-     description:"Renove seu banheiro com um vaso sanitário de louça de alta durabilidade e fácil instalação. Conforto e qualidade garantidos para seu dia a dia.",
-     features: [
-      "Material resistente e durável",
-      "Design ergonômico para maior conforto",
-      "Fácil de higienizar",
-      "Compatível com sistemas convencionais de descarga",
-    ],
-  },
+  }
 ];
 
 
