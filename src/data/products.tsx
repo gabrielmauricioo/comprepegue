@@ -123,20 +123,6 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 30,
-    name: "Criado-Mudo de Bambú",
-    brand: "Moderno",
-    price: "R$ 70",
-    image: "/criado.png",
-     description:"🪵 Uma peça rústica, charmosa e super funcional pro seu quarto, sala ou até banheiro! Ideal pra quem curte um estilo natural e diferente.",
-     features: [
-      "Feito de bambu",
-      "Com duas gavetas",
-      "Estrutura firme e resistente",
-      "Em bom estado de conservação",
-    ],
-  },
-  {
     id: 29,
     name: "Quadro Decorativo",
     brand: "Moderno",
