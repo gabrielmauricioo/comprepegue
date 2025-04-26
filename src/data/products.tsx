@@ -11,6 +11,21 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 40,
+    name: "MESA DE CROCHÊ ARTESANAL ",
+    brand: "💡 Iluminação com personalidade!",
+    price: "R$ 250",
+    oldPrice: "R$ 600",
+    image: "/mesacroche.png",
+     description:"Perfeita para dar um toque especial na sua sala, varanda ou área externa. Estrutura resistente, material de alta qualidade e visual único que combina com vários estilos de decoração",
+     features: [
+      "Estrutura firme e resistente",
+      "Acabamento em crochê verde e cru",
+      "Ideal para salas, varandas, áreas gourmet ou decoração boho",
+      "Peça exclusiva",
+    ],
+  },
+  {
     id: 37,
     name: "LUMINÁRIA RÚSTICA DE MESA",
     brand: "💡 Iluminação com personalidade!",
